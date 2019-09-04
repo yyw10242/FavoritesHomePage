@@ -7,18 +7,26 @@ header{
 html,body{
   height: 100%;
 }
+a{
+  text-decoration: none;
+}
+
 .Wrapper{
     min-height: 100%;
     height: auto;
     height: 100%;
     margin-bottom: -50px; /*footer's height*/
+    background-color: lightgrey;
 }
 .Favorites{
   display: grid;
   grid-template-columns: repeat(6,1fr);
 }
 .Favorite{
-  width: 100%;
+  width: 1fr;
+  height: 10em;
+  margin: 10px;
+  background-color: yellow;
 }
 footer,#push{
   height: 50px;
