@@ -33,6 +33,8 @@ a{
   height: 10em;
   margin: 10px;
   background-color: yellow;
+  border-radius: 2em;
+  overflow: hidden;
 }
 footer,#push{
   height: 50px;
